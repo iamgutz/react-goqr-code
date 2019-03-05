@@ -1,7 +1,7 @@
 {
-  "name": "react-google-qrcode",
-  "version": "1.0.1",
-  "description": "React Component to Generate a Google QR Code",
+  "name": "react-goqr-code",
+  "version": "1.0.0",
+  "description": "React Component to Generate a QR Code",
   "main": "dist/index.js",
   "engines": {
     "node": ">=8.11.1"
@@ -22,6 +22,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
+    "lodash": "^4.17.11",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-image-loader-hoc": "^1.0.3",
@@ -62,18 +63,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamgutz/react-google-qrcode.git"
+    "url": "git+https://github.com/iamgutz/react-goqr-code.git"
   },
   "bugs": {
-    "url": "https://github.com/iamgutz/react-google-qrcode/issues"
+    "url": "https://github.com/iamgutz/react-goqr-code/issues"
   },
-  "homepage": "https://github.com/iamgutz/react-google-qrcode#readme",
+  "homepage": "https://github.com/iamgutz/react-goqr-code#readme",
   "keywords": [
     "React",
     "QR code",
     "QR",
     "Generator",
-    "Google",
     "Customizable"
   ],
   "author": "Michael Gutierrez",

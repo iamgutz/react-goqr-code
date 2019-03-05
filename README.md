@@ -1,24 +1,24 @@
-# React Google QR Code
-[![Version](https://img.shields.io/npm/v/react-google-qrcode.svg?style=for-the-badge&logo=appveyor)]()
-[![React](https://img.shields.io/npm/dependency-version/react-google-qrcode/react.svg?style=for-the-badge&logo=appveyor)]()
-[![Downloads](https://img.shields.io/npm/dw/react-google-qrcode.svg?style=for-the-badge&logo=appveyor)]()
-[![License](https://img.shields.io/github/license/iamgutz/react-google-qrcode.svg?style=for-the-badge&logo=appveyor)]()
+# React Go QR Code
+[![Version](https://img.shields.io/npm/v/react-goqr-code.svg?style=for-the-badge&logo=appveyor)]()
+[![React](https://img.shields.io/npm/dependency-version/react-goqr-code/react.svg?style=for-the-badge&logo=appveyor)]()
+[![Downloads](https://img.shields.io/npm/dw/react-goqr-code.svg?style=for-the-badge&logo=appveyor)]()
+[![License](https://img.shields.io/github/license/iamgutz/react-goqr-code.svg?style=for-the-badge&logo=appveyor)]()
 
-react-google-qrcode is a React Component to generate a QR code via Google Chart API.
-![screen shot](https://raw.githubusercontent.com/iamgutz/react-google-qrcode/master/screenshots/demo-image.png)
+react-goqr-code is a React Component to generate a QR code via Google Chart API.
+![screen shot](https://raw.githubusercontent.com/iamgutz/react-goqr-code/master/screenshots/demo-image.png)
 
 ## Installation
 ```
-$ yarn add react-google-qrcode
+$ yarn add react-goqr-code
 or
-$ npm install --save react-google-qrcode
+$ npm install --save react-goqr-code
 ```
 
 ## Usage
 
 ```
 import React, { Component } from 'react';
-import QRCode from 'react-google-qrcode';
+import QRCode from 'react-goqr-code';
 
 class App extends Component {
   render() {
@@ -43,4 +43,4 @@ class App extends Component {
 |framed| Boolean | No |  Adds a frame to the image| false
 
 # Demo
-You want to see some examples? Go to [Online Demo](https://iamgutz.github.io/react-google-qrcode/)
+You want to see some examples? Go to [Online Demo](https://iamgutz.github.io/react-goqr-code/)
